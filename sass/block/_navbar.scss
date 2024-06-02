@@ -1,0 +1,20 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    b{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .nav__collection{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        .nav__item{
+            &:hover{
+                color: green;
+            }
+        }
+    }
+}

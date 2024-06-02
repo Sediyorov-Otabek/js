@@ -1,0 +1,18 @@
+.hero__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    .hero__text{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        b{
+            font-size: 52px;
+            font-weight: 600;
+        }
+        p{
+            color: gray;
+        }
+    }
+}

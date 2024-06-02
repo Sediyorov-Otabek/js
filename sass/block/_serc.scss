@@ -1,0 +1,31 @@
+.serc__wrap {
+  margin-top: 100px;
+  box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.24);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  border-radius: 25px;
+  .once{
+    border-right: 1px solid gray;
+  }
+  .second{
+    border-right: 1px solid gray;
+  }
+  .sirc__card {
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    gap: 25px;
+    flex-direction: column;
+    padding: 0 65px;
+
+    b {
+      font-size: 24px;
+      font-weight: 500;
+    }
+    p {
+      color: gray;
+    }
+  }
+}
